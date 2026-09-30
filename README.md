@@ -6,11 +6,11 @@ An online course platform landing page, built from a Figma design.
 
 ## Scope
 
-| Page | Route | |
-|---|---|---|
-| Landing page | `/` |  |
-| Login | `/login` |  |
-| Register | `/register` | |
+| Page | Route |
+|---|---|
+| Landing page | `/` |
+| Login | `/login` |
+| Register | `/register` |
 
 ## Tech stack
 
