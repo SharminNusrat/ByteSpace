@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  /* Neutral */
+  --color-neutral-50: #f5f5f6;
+  --color-neutral-100: #e5e6e8;
+  --color-neutral-200: #ced0d3;
+  --color-neutral-300: #abaeb5;
+  --color-neutral-400: #82868e;
+  --color-neutral-700: #4b4c53;
+  --color-neutral-950: #242528;
+
+  /* Primary (blue) - brand surfaces and links */
+  --color-primary-700: #0043ff;
+  --color-primary-800: #003be2;
+
+  /* Secondary (lime) - buttons and accents */
+  --color-secondary-300: #e4ff54;
+  --color-secondary-400: #d4fb20;
+  --color-secondary-500: #cbfc01;
+
+  /* Families */
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Satoshi", sans-serif;
+  --font-display: "Clash Display", sans-serif;
+
+  /* Headings - Poppins SemiBold, 120% line height */
+  --text-h-l: 72px;
+  --text-h-l--line-height: 1.2;
+  --text-h-m: 44px;
+  --text-h-m--line-height: 1.2;
+  --text-h-s: 36px;
+  --text-h-s--line-height: 1.2;
+  --text-h-xs: 20px;
+  --text-h-xs--line-height: 1.2;
+
+  /* Body - Satoshi Regular, 160% line height */
+  --text-body-l: 18px;
+  --text-body-l--line-height: 1.6;
+  --text-body-m: 16px;
+  --text-body-m--line-height: 1.6;
+  --text-body-s: 14px;
+  --text-body-s--line-height: 1.6;
+  --text-body-xs: 12px;
+  --text-body-xs--line-height: 1.6;
+
+  /* Labels - Satoshi Medium, 120% line height */
+  --text-label-l: 18px;
+  --text-label-l--line-height: 1.2;
+  --text-label-m: 16px;
+  --text-label-m--line-height: 1.2;
+  --text-label-s: 14px;
+  --text-label-s--line-height: 1.2;
+  --text-label-xs: 12px;
+  --text-label-xs--line-height: 1.2;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-neutral-950);
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  /* -1% tracking on every heading. Without it they run wide and wrap. */
+  letter-spacing: -0.01em;
+}
+
+.font-heading {
+  letter-spacing: -0.01em;
+}
